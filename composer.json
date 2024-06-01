@@ -1,0 +1,19 @@
+{
+    "name": "ddobren/venir-router",
+    "description": "A modular PHP router component designed for the Venir Framework.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dobren Dragojević",
+            "email": "dragojevicdobren@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Routes\\": "Routes/",
+            "Src\\": "src/"
+        }
+    }
+}
