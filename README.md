@@ -27,15 +27,15 @@ A modular PHP router component designed for the Venir Framework.
    cd venir-router
    ```
 
-3. Build the Docker containers:
+3. Build the Docker image:
 
    ```bash
-   docker-compose build
+   docker build -t venir-router .
    ```
 
-4. Run the containers:
+4. Run the container:
    ```bash
-   docker-compose up -d
+   docker run -p 8000:8000 venir-router
    ```
 
 ## Usage
