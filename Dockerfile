@@ -20,8 +20,8 @@ COPY . .
 # Kreiraj optimizirani autoload
 RUN composer dump-autoload --optimize
 
-# Izloži port 8000
-EXPOSE 8000
+# Izloži port 80 (default)
+EXPOSE 80
 
 # Pokreni PHP server
-CMD ["php", "-S", "0.0.0.0:8000", "index.php"]
+CMD ["php", "-S", "0.0.0.0:80", "index.php"]
