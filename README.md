@@ -35,9 +35,9 @@ A modular PHP router component designed for the Venir Framework.
 
 4. Run the container:
    ```bash
-   docker run -p 8000:8000 venir-router
+   docker run -p 80:80 venir-router
    ```
 
 ## Usage
 
-After starting the containers, the router will be available at http://localhost:8000 where you can start routing your requests as per the defined routes in your project.
+After starting the containers, the router will be available at http://localhost:80 where you can start routing your requests as per the defined routes in your project.
